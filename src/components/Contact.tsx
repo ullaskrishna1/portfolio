@@ -10,8 +10,6 @@ import {
   IconButton,
   Snackbar,
   Alert,
-  useMediaQuery,
-  useTheme,
 } from "@mui/material";
 import {
   Email,
@@ -33,8 +31,7 @@ const Contact: React.FC = () => {
     message: "",
     severity: "success" as "success" | "error",
   });
-  const theme = useTheme();
-  const isMobile = useMediaQuery(theme.breakpoints.down("md"));
+
 
   const handleChange = (
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>

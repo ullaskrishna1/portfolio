@@ -10,7 +10,6 @@ import {
   Box,
   Button,
   Container,
-  useScrollTrigger,
 } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
